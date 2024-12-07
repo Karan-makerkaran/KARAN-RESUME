@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    color: #444;
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Sections */
+  section {
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0073e6;
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Links */
+  a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header, .container {
+      padding: 10px;
+    }
+  }
